@@ -46,7 +46,7 @@ Then you can grant specific permissions and create new users, but for now just u
 ### Dump the tables in the db
 To dump the fake data from the fake csv files and create the interval and session tables, run:
 ```
-$ mysql -uroot -p < dump.sql
+$ mysql -uroot -p ecal_ev_charger < dump.sql
 Password:
 ```
 And enter your password. If you decided to use another user you can replace root by that user name.
